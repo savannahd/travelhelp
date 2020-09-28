@@ -1,0 +1,48 @@
+body {
+    background-size: cover;
+}
+
+#welcome {
+    background-image: url(./welcomeparis.jpg)
+    
+}
+
+.logo {
+    width: 50%;
+    height: 200px;
+    
+}
+
+.logo img {
+    height: 25px;
+    float: left;
+}   
+
+nav {
+    float: right;
+    color: navy;
+    height: 40px;
+    
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+h1, p{
+    color: navy;
+    font-style: italic;
+}
+
+.attractions {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+}
+
+.attractions, a {
+    width: 60px;
+}
